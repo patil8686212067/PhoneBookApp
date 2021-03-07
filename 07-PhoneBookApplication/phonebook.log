@@ -1,0 +1,73 @@
+2021-03-04 06:23:25,717 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Starting Application using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 42088 (D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication\target\classes started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-04 06:23:25,795 [restartedMain] INFO  com.ashokit.phonebook.Application                  - No active profile set, falling back to default profiles: default
+2021-03-04 06:23:26,106 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-04 06:23:26,108 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-04 06:23:29,641 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-04 06:23:30,045 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 314 ms. Found 1 JPA repository interfaces.
+2021-03-04 06:23:34,704 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9095 (http)
+2021-03-04 06:23:34,728 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9095"]
+2021-03-04 06:23:34,731 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-04 06:23:34,731 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-04 06:23:35,238 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-04 06:23:35,246 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-04 06:23:35,247 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 9136 ms
+2021-03-04 06:23:35,385 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-04 06:23:37,965 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-04 06:23:37,978 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/jrtp_db'
+2021-03-04 06:23:38,418 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-04 06:23:38,547 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-04 06:23:38,895 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-04 06:23:39,450 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-04 06:23:41,238 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-04 06:23:41,261 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-04 06:23:41,376 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-04 06:23:42,874 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-04 06:23:43,317 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-04 06:23:43,648 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-04 06:23:44,318 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9095"]
+2021-03-04 06:23:44,411 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9095 (http) with context path ''
+2021-03-04 06:23:44,414 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-04 06:23:44,478 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-04 06:23:44,639 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-04 06:23:45,252 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Started Application in 20.619 seconds (JVM running for 24.444)
+2021-03-04 06:24:11,312 [Thread-6] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-04 06:24:11,321 [Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-04 06:24:11,357 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-04 06:24:11,386 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-04 06:32:24,607 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Starting Application using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 42720 (D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication\target\classes started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-04 06:32:24,716 [restartedMain] INFO  com.ashokit.phonebook.Application                  - No active profile set, falling back to default profiles: default
+2021-03-04 06:32:24,866 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-04 06:32:24,866 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-04 06:32:27,189 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-04 06:32:27,322 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 112 ms. Found 1 JPA repository interfaces.
+2021-03-04 06:32:28,934 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9095 (http)
+2021-03-04 06:32:28,948 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9095"]
+2021-03-04 06:32:28,950 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-04 06:32:28,951 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-04 06:32:29,595 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-04 06:32:29,600 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-04 06:32:29,601 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 4732 ms
+2021-03-04 06:32:29,693 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-04 06:32:33,563 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-04 06:32:33,576 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/jrtp_db'
+2021-03-04 06:32:34,246 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-04 06:32:34,563 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-04 06:32:35,059 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-04 06:32:35,409 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-04 06:32:37,727 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-04 06:32:37,755 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-04 06:32:37,880 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-04 06:32:39,658 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-04 06:32:40,158 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-04 06:32:40,452 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-04 06:32:41,152 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9095"]
+2021-03-04 06:32:42,418 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9095 (http) with context path ''
+2021-03-04 06:32:42,421 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-04 06:32:42,567 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-04 06:32:42,698 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-04 06:32:43,215 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Started Application in 19.823 seconds (JVM running for 24.763)
+2021-03-04 06:37:18,281 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-04 06:37:20,253 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-04 06:37:20,286 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-04 06:37:20,468 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-04 06:37:20,574 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.

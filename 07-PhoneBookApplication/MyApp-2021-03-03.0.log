@@ -1,0 +1,1222 @@
+2021-03-03 15:37:30,943 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Starting Application using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 42256 (D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication\target\classes started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 15:37:30,949 [restartedMain] INFO  com.ashokit.phonebook.Application                  - No active profile set, falling back to default profiles: default
+2021-03-03 15:37:31,024 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-03 15:37:31,029 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-03 15:37:34,240 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 15:37:34,409 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 151 ms. Found 1 JPA repository interfaces.
+2021-03-03 15:37:36,842 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9091 (http)
+2021-03-03 15:37:36,870 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9091"]
+2021-03-03 15:37:36,875 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-03 15:37:36,876 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-03 15:37:37,357 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-03 15:37:37,361 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-03 15:37:37,362 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 6331 ms
+2021-03-03 15:37:37,462 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 15:37:40,025 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 15:37:40,036 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/jrtp_db'
+2021-03-03 15:37:40,571 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 15:37:40,709 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 15:37:41,081 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 15:37:41,377 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-03 15:37:42,269 [restartedMain] INFO  org.hibernate.tuple.PojoInstantiator               - HHH000182: No default (no-argument) constructor for class: com.ashokit.phonebook.entity.Contact (class must be instantiated by Interceptor)
+2021-03-03 15:37:43,276 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 15:37:43,302 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 15:37:43,497 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-03 15:37:44,481 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 15:37:44,620 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact) mapped.
+2021-03-03 15:37:44,624 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 15:37:44,632 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 15:37:44,653 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-03 15:37:44,659 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2021-03-03 15:37:44,686 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-03 15:37:45,057 [restartedMain] ERROR o.springframework.boot.SpringApplication           - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.ashokit.phonebook.Application.main(Application.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1598)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1598)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 42 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:659)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:625)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:325)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:295)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:293)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 56 common frames omitted
+2021-03-03 15:40:04,846 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Starting Application using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 6180 (D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication\target\classes started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 15:40:04,949 [restartedMain] INFO  com.ashokit.phonebook.Application                  - No active profile set, falling back to default profiles: default
+2021-03-03 15:40:05,044 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-03 15:40:05,045 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-03 15:40:06,822 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 15:40:06,937 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interfaces.
+2021-03-03 15:40:08,214 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9091 (http)
+2021-03-03 15:40:08,235 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9091"]
+2021-03-03 15:40:08,239 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-03 15:40:08,239 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-03 15:40:08,617 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-03 15:40:08,621 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-03 15:40:08,622 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 3574 ms
+2021-03-03 15:40:08,803 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 15:40:10,701 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 15:40:10,711 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/jrtp_db'
+2021-03-03 15:40:11,022 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 15:40:11,152 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 15:40:11,507 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 15:40:11,751 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-03 15:40:12,411 [restartedMain] INFO  org.hibernate.tuple.PojoInstantiator               - HHH000182: No default (no-argument) constructor for class: com.ashokit.phonebook.entity.Contact (class must be instantiated by Interceptor)
+2021-03-03 15:40:13,119 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 15:40:13,135 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 15:40:13,201 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-03 15:40:14,128 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 15:40:14,279 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact) mapped.
+2021-03-03 15:40:14,283 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 15:40:14,326 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 15:40:14,354 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-03 15:40:14,358 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2021-03-03 15:40:14,387 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-03 15:40:14,440 [restartedMain] ERROR o.springframework.boot.SpringApplication           - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.ashokit.phonebook.Application.main(Application.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1598)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1598)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 42 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:659)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:625)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:325)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:295)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:293)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 56 common frames omitted
+2021-03-03 15:41:16,607 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Starting Application using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 11768 (D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication\target\classes started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 15:41:16,715 [restartedMain] INFO  com.ashokit.phonebook.Application                  - No active profile set, falling back to default profiles: default
+2021-03-03 15:41:16,854 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-03 15:41:16,855 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-03 15:41:19,198 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 15:41:19,370 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interfaces.
+2021-03-03 15:41:21,033 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9091 (http)
+2021-03-03 15:41:21,051 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9091"]
+2021-03-03 15:41:21,053 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-03 15:41:21,054 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-03 15:41:21,404 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-03 15:41:21,409 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-03 15:41:21,409 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 4553 ms
+2021-03-03 15:41:21,500 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 15:41:23,594 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 15:41:23,606 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/jrtp_db'
+2021-03-03 15:41:24,351 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 15:41:24,497 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 15:41:24,815 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 15:41:25,099 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-03 15:41:25,753 [restartedMain] INFO  org.hibernate.tuple.PojoInstantiator               - HHH000182: No default (no-argument) constructor for class: com.ashokit.phonebook.entity.Contact (class must be instantiated by Interceptor)
+2021-03-03 15:41:26,475 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 15:41:26,496 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 15:41:26,586 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-03 15:41:27,592 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 15:41:27,733 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer) mapped.
+2021-03-03 15:41:27,738 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 15:41:27,747 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 15:41:27,765 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-03 15:41:27,769 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2021-03-03 15:41:27,841 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-03 15:41:27,890 [restartedMain] ERROR o.springframework.boot.SpringApplication           - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.ashokit.phonebook.Application.main(Application.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Anil/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1598)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1598)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 42 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'contactDetailsController' method 
+com.ashokit.phonebook.controller.ContactDetailsController#updateContact(Contact)
+to {PUT [/updateContact]}: There is already 'contactDetailsController' bean method
+com.ashokit.phonebook.controller.ContactDetailsController#deleteContactById(Integer) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:659)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:625)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:325)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:295)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:293)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 56 common frames omitted
+2021-03-03 15:42:44,225 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Starting Application using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 38556 (D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication\target\classes started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 15:42:44,244 [restartedMain] INFO  com.ashokit.phonebook.Application                  - No active profile set, falling back to default profiles: default
+2021-03-03 15:42:44,377 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-03 15:42:44,379 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-03 15:42:47,178 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 15:42:47,304 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 109 ms. Found 1 JPA repository interfaces.
+2021-03-03 15:42:49,088 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9091 (http)
+2021-03-03 15:42:49,105 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9091"]
+2021-03-03 15:42:49,107 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-03 15:42:49,107 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-03 15:42:49,505 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-03 15:42:49,509 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-03 15:42:49,510 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 5125 ms
+2021-03-03 15:42:49,659 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 15:42:54,139 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 15:42:54,149 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/jrtp_db'
+2021-03-03 15:42:54,521 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 15:42:54,638 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 15:42:55,002 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 15:42:55,266 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-03 15:42:55,886 [restartedMain] INFO  org.hibernate.tuple.PojoInstantiator               - HHH000182: No default (no-argument) constructor for class: com.ashokit.phonebook.entity.Contact (class must be instantiated by Interceptor)
+2021-03-03 15:42:56,665 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 15:42:56,687 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 15:42:56,769 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-03 15:42:58,005 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 15:42:58,544 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-03 15:42:58,808 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 15:42:59,554 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9091"]
+2021-03-03 15:42:59,696 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9091 (http) with context path ''
+2021-03-03 15:42:59,699 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-03 15:42:59,764 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-03 15:42:59,860 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-03 15:43:00,318 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Started Application in 17.052 seconds (JVM running for 19.816)
+2021-03-03 15:44:03,788 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 15:44:04,129 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-03-03 15:44:04,135 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 6 ms
+2021-03-03 15:46:20,051 [http-nio-9091-exec-5] ERROR c.a.p.c.ContactDetailsController                   -  ** Exception Occured : ** org.springframework.orm.jpa.JpaSystemException: No default constructor for entity:  : com.ashokit.phonebook.entity.Contact; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.ashokit.phonebook.entity.Contact
+2021-03-03 15:46:20,052 [http-nio-9091-exec-5] INFO  c.a.p.c.ContactDetailsController                   - **** saveContact() - Contact Not Saved**** 
+2021-03-03 15:47:27,159 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-03 15:47:28,279 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 15:47:28,287 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 15:47:28,370 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 15:47:28,424 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-03 15:48:00,058 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Starting Application using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 45740 (D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication\target\classes started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 15:48:00,169 [restartedMain] INFO  com.ashokit.phonebook.Application                  - No active profile set, falling back to default profiles: default
+2021-03-03 15:48:00,692 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-03 15:48:00,693 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-03 15:48:02,421 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 15:48:02,535 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 99 ms. Found 1 JPA repository interfaces.
+2021-03-03 15:48:03,640 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9091 (http)
+2021-03-03 15:48:03,657 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9091"]
+2021-03-03 15:48:03,659 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-03 15:48:03,659 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-03 15:48:04,052 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-03 15:48:04,056 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-03 15:48:04,056 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 3359 ms
+2021-03-03 15:48:04,156 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 15:48:06,231 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 15:48:06,244 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/jrtp_db'
+2021-03-03 15:48:06,641 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 15:48:06,751 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 15:48:07,080 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 15:48:07,300 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-03 15:48:08,589 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 15:48:08,637 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 15:48:08,713 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-03 15:48:09,581 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 15:48:10,065 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-03 15:48:10,241 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 15:48:10,668 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9091"]
+2021-03-03 15:48:10,743 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9091 (http) with context path ''
+2021-03-03 15:48:10,745 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-03 15:48:10,776 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-03 15:48:10,828 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-03 15:48:11,140 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Started Application in 11.913 seconds (JVM running for 14.744)
+2021-03-03 15:48:29,669 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 15:48:29,669 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-03-03 15:48:29,671 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2021-03-03 15:49:06,412 [http-nio-9091-exec-2] INFO  c.a.p.c.ContactDetailsController                   - **** saveContact() -Contact Saved **** 
+2021-03-03 15:52:59,914 [http-nio-9091-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'contactId' for method parameter of type Integer]
+2021-03-03 15:57:36,551 [http-nio-9091-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'contactId' for method parameter of type Integer]
+2021-03-03 15:57:44,873 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-03 15:57:46,492 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 15:57:46,498 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 15:57:46,566 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 15:57:46,616 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-03 15:58:27,288 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Starting Application using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 39468 (D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication\target\classes started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 15:58:27,398 [restartedMain] INFO  com.ashokit.phonebook.Application                  - No active profile set, falling back to default profiles: default
+2021-03-03 15:58:27,483 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-03 15:58:27,483 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-03 15:58:29,234 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 15:58:29,404 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interfaces.
+2021-03-03 15:58:30,476 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9091 (http)
+2021-03-03 15:58:30,491 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9091"]
+2021-03-03 15:58:30,493 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-03 15:58:30,494 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-03 15:58:30,821 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-03 15:58:30,825 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-03 15:58:30,825 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 3341 ms
+2021-03-03 15:58:30,908 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 15:58:33,509 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 15:58:33,524 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/jrtp_db'
+2021-03-03 15:58:34,460 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 15:58:34,589 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 15:58:34,941 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 15:58:35,191 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-03 15:58:36,708 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 15:58:36,727 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 15:58:36,797 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-03 15:58:37,815 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 15:58:38,092 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-03 15:58:38,309 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 15:58:38,703 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9091"]
+2021-03-03 15:58:38,788 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9091 (http) with context path ''
+2021-03-03 15:58:38,791 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-03 15:58:38,854 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-03 15:58:38,971 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-03 15:58:39,288 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Started Application in 12.966 seconds (JVM running for 16.31)
+2021-03-03 15:58:53,269 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 15:58:53,269 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-03-03 15:58:53,271 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2021-03-03 15:58:53,352 [http-nio-9091-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "{id}"]
+2021-03-03 16:03:52,762 [http-nio-9091-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'contactId' for method parameter of type Integer]
+2021-03-03 16:04:43,659 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-03 16:04:44,471 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 16:04:44,480 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 16:04:44,560 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 16:04:44,616 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-03 16:05:11,769 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Starting Application using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 39488 (D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication\target\classes started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 16:05:11,881 [restartedMain] INFO  com.ashokit.phonebook.Application                  - No active profile set, falling back to default profiles: default
+2021-03-03 16:05:12,024 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-03 16:05:12,026 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-03 16:05:14,459 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 16:05:14,698 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 219 ms. Found 1 JPA repository interfaces.
+2021-03-03 16:05:15,981 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9091 (http)
+2021-03-03 16:05:15,999 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9091"]
+2021-03-03 16:05:16,000 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-03 16:05:16,001 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-03 16:05:16,382 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-03 16:05:16,387 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-03 16:05:16,388 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 4361 ms
+2021-03-03 16:05:16,545 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 16:05:18,576 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 16:05:18,587 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/jrtp_db'
+2021-03-03 16:05:19,040 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 16:05:19,169 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 16:05:19,502 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 16:05:19,742 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-03 16:05:20,921 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 16:05:20,941 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 16:05:21,032 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-03 16:05:21,934 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 16:05:22,227 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-03 16:05:22,470 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 16:05:22,783 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9091"]
+2021-03-03 16:05:22,860 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9091 (http) with context path ''
+2021-03-03 16:05:22,863 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-03 16:05:22,906 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-03 16:05:22,968 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-03 16:05:23,243 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Started Application in 12.39 seconds (JVM running for 15.271)
+2021-03-03 16:05:57,878 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 16:05:57,878 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-03-03 16:05:57,881 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 3 ms
+2021-03-03 16:10:05,594 [http-nio-9091-exec-8] INFO  c.a.p.c.ContactDetailsController                   - ** deleteContactById( ) -Record Deleted ** 
+2021-03-03 16:14:37,109 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-03 16:14:38,235 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 16:14:38,244 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 16:14:38,338 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 16:14:38,399 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-03 16:15:17,882 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Starting Application using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 28948 (D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication\target\classes started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 16:15:17,987 [restartedMain] INFO  com.ashokit.phonebook.Application                  - No active profile set, falling back to default profiles: default
+2021-03-03 16:15:18,102 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-03 16:15:18,103 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-03 16:15:19,702 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 16:15:19,811 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interfaces.
+2021-03-03 16:15:20,947 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9091 (http)
+2021-03-03 16:15:20,962 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9091"]
+2021-03-03 16:15:20,964 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-03 16:15:20,965 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-03 16:15:21,227 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-03 16:15:21,231 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-03 16:15:21,231 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 3126 ms
+2021-03-03 16:15:21,316 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 16:15:23,330 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 16:15:23,341 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/jrtp_db'
+2021-03-03 16:15:23,673 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 16:15:23,865 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 16:15:24,192 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 16:15:24,490 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-03 16:15:25,901 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 16:15:25,915 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 16:15:26,026 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-03 16:15:27,101 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 16:15:27,449 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-03 16:15:27,685 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 16:15:28,047 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9091"]
+2021-03-03 16:15:28,129 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9091 (http) with context path ''
+2021-03-03 16:15:28,132 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-03 16:15:28,176 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-03 16:15:28,247 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-03 16:15:28,689 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Started Application in 11.383 seconds (JVM running for 13.726)
+2021-03-03 16:16:29,488 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 16:16:29,489 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-03-03 16:16:29,491 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2021-03-03 16:17:03,374 [http-nio-9091-exec-6] INFO  c.a.p.c.ContactDetailsController                   - ** deleteContactById( ) -Record Deleted ** 
+2021-03-03 17:44:19,434 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-03 17:44:20,536 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 17:44:20,545 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 17:44:20,682 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 17:44:20,712 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-03 17:54:18,989 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Starting Application using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 30788 (D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication\target\classes started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 17:54:19,099 [restartedMain] INFO  com.ashokit.phonebook.Application                  - No active profile set, falling back to default profiles: default
+2021-03-03 17:54:19,259 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-03 17:54:19,261 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-03 17:54:21,643 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 17:54:21,762 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interfaces.
+2021-03-03 17:54:23,254 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9091 (http)
+2021-03-03 17:54:23,313 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9091"]
+2021-03-03 17:54:23,317 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-03 17:54:23,318 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-03 17:54:23,879 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-03 17:54:23,896 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-03 17:54:23,897 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 4634 ms
+2021-03-03 17:54:24,105 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 17:54:26,505 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 17:54:26,516 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/jrtp_db'
+2021-03-03 17:54:26,987 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 17:54:27,122 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 17:54:27,526 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 17:54:27,835 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-03 17:54:29,827 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 17:54:29,846 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 17:54:29,982 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-03 17:54:31,367 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 17:54:32,340 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-03 17:54:32,575 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 17:54:33,208 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9091"]
+2021-03-03 17:54:33,294 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9091 (http) with context path ''
+2021-03-03 17:54:33,297 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-03 17:54:33,354 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-03 17:54:33,445 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-03 17:54:33,807 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Started Application in 15.777 seconds (JVM running for 18.568)
+2021-03-03 18:33:18,388 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s245ms664µs300ns).
+2021-03-03 18:33:49,723 [RMI TCP Connection(31)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-03 18:33:54,943 [RMI TCP Connection(32)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-03 18:33:57,497 [RMI TCP Connection(33)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-03 18:33:58,358 [RMI TCP Connection(31)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 18:33:58,382 [RMI TCP Connection(31)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 18:33:59,085 [RMI TCP Connection(31)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 18:33:59,411 [RMI TCP Connection(31)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-03 18:52:27,580 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ashokit.phonebook.ApplicationTests], using SpringBootContextLoader
+2021-03-03 18:52:27,642 [main] INFO  o.s.t.c.support.AbstractContextLoader              - Could not detect default resource locations for test class [com.ashokit.phonebook.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-03-03 18:52:27,652 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils       - Could not detect default configuration classes for test class [com.ashokit.phonebook.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-03-03 18:52:28,835 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Found @SpringBootConfiguration com.ashokit.phonebook.Application for test class com.ashokit.phonebook.ApplicationTests
+2021-03-03 18:52:29,732 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-03-03 18:52:29,964 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@c1386b4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53d9af1, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@c89e263, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4d5ea776, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5d68be4f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@34eb5d01, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77b22b05, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4fef5792, org.springframework.test.context.event.EventPublishingTestExecutionListener@57ed02e6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@39004e4f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5f0ca069, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a6a2fdd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@552ffa44, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6e66b498, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@54d35ed5]
+2021-03-03 18:52:31,799 [main] INFO  com.ashokit.phonebook.ApplicationTests             - Starting ApplicationTests using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 44916 (started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 18:52:31,811 [main] INFO  com.ashokit.phonebook.ApplicationTests             - No active profile set, falling back to default profiles: default
+2021-03-03 18:52:40,192 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 18:52:40,688 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 463 ms. Found 1 JPA repository interfaces.
+2021-03-03 18:52:44,871 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 18:52:45,645 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 18:52:46,843 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 18:52:48,850 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 18:52:52,208 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 18:52:52,300 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-03 18:52:56,774 [main] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl               - GenerationTarget encountered exception accepting command : Error executing DDL "create table hibernate_sequence (next_val bigint) type=MyISAM" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table hibernate_sequence (next_val bigint) type=MyISAM" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:504)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1153)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:907)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type=MyISAM' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 101 common frames omitted
+2021-03-03 18:52:56,986 [main] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl               - GenerationTarget encountered exception accepting command : Error executing DDL "insert into hibernate_sequence values ( 1 )" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "insert into hibernate_sequence values ( 1 )" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:504)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1153)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:907)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'sbms_db.hibernate_sequence' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 101 common frames omitted
+2021-03-03 18:52:57,005 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 18:52:57,054 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 18:53:00,768 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 18:53:02,667 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-03 18:53:04,846 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 18:53:06,944 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-03 18:53:07,232 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-03 18:53:07,525 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-03 18:53:09,055 [main] INFO  com.ashokit.phonebook.ApplicationTests             - Started ApplicationTests in 38.79 seconds (JVM running for 50.13)
+2021-03-03 18:53:09,666 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper        - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ashokit.phonebook.ContactDetailsControllerTest], using SpringBootContextLoader
+2021-03-03 18:53:09,670 [main] INFO  o.s.t.c.support.AbstractContextLoader              - Could not detect default resource locations for test class [com.ashokit.phonebook.ContactDetailsControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-03-03 18:53:09,671 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils       - Could not detect default configuration classes for test class [com.ashokit.phonebook.ContactDetailsControllerTest]: ContactDetailsControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-03-03 18:53:09,820 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Found @SpringBootConfiguration com.ashokit.phonebook.Application for test class com.ashokit.phonebook.ContactDetailsControllerTest
+2021-03-03 18:53:09,823 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper        - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-03-03 18:53:09,824 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper        - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4445887d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4b47ecb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4ec6382b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5e6c8596, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3682e846, org.springframework.test.context.support.DirtiesContextTestExecutionListener@11e79a7b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6e9fef0c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@54e5877c, org.springframework.test.context.event.EventPublishingTestExecutionListener@7584857e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@581dfdf7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@49eb8e77, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@31cd2e51, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6033f263, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@57f649d7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@42fbed68]
+2021-03-03 18:53:10,776 [main] INFO  c.a.p.ContactDetailsControllerTest                 - Starting ContactDetailsControllerTest using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 44916 (started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 18:53:10,781 [main] INFO  c.a.p.ContactDetailsControllerTest                 - No active profile set, falling back to default profiles: default
+2021-03-03 18:53:13,325 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 18:53:15,245 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext           - Initializing Spring TestDispatcherServlet ''
+2021-03-03 18:53:15,249 [main] INFO  o.s.t.web.servlet.TestDispatcherServlet            - Initializing Servlet ''
+2021-03-03 18:53:15,250 [main] INFO  o.s.t.web.servlet.TestDispatcherServlet            - Completed initialization in 1 ms
+2021-03-03 18:53:15,440 [main] INFO  c.a.p.ContactDetailsControllerTest                 - Started ContactDetailsControllerTest in 5.593 seconds (JVM running for 56.515)
+2021-03-03 18:53:18,229 [main] INFO  c.a.p.c.ContactDetailsController                   - **** saveContact() - Contact Not Saved**** 
+2021-03-03 18:53:18,374 [main] INFO  c.a.p.c.ContactDetailsController                   - ** getAllContacts( ) -Records Not Available **
+2021-03-03 18:53:18,429 [main] ERROR c.a.p.c.ContactDetailsController                   - Exception Occured : ** java.lang.RuntimeException
+2021-03-03 18:53:18,487 [main] INFO  c.a.p.c.ContactDetailsController                   - **** saveContact() -Contact Saved **** 
+2021-03-03 18:53:18,749 [SpringContextShutdownHook] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 18:53:18,724 [SpringContextShutdownHook] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 18:53:18,774 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 18:53:18,875 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 18:53:18,938 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-03 22:25:36,583 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Starting Application using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 44516 (D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication\target\classes started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 22:25:36,629 [restartedMain] INFO  com.ashokit.phonebook.Application                  - No active profile set, falling back to default profiles: default
+2021-03-03 22:25:36,764 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls           - The Class-Path manifest attribute in C:\Users\Anil\.m2\repository\org\sonarsource\sonar-runner\sonar-runner-api\2.5.1\sonar-runner-api-2.5.1.jar referenced one or more files that do not exist: file:/C:/Users/Anil/.m2/repository/org/sonarsource/sonar-runner/sonar-runner-api/2.5.1/okhttp-2.6.0.jar,file:/C:/Users/Anil/.m2/repository/org/sonarsource/sonar-runner/sonar-runner-api/2.5.1/okio-1.6.0.jar,file:/C:/Users/Anil/.m2/repository/org/sonarsource/sonar-runner/sonar-runner-api/2.5.1/commons-io-2.4.jar,file:/C:/Users/Anil/.m2/repository/org/sonarsource/sonar-runner/sonar-runner-api/2.5.1/sonar-runner-batch-interface-2.5.1.jar
+2021-03-03 22:25:36,765 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-03 22:25:36,766 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-03 22:25:38,754 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 22:25:38,857 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interfaces.
+2021-03-03 22:25:40,800 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2021-03-03 22:25:40,814 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-03 22:25:40,815 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-03 22:25:40,816 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-03 22:25:41,192 [restartedMain] WARN  o.a.tomcat.util.scan.StandardJarScanner            - Failed to scan [file:/C:/Users/Anil/.m2/repository/org/sonarsource/sonar-runner/sonar-runner-api/2.5.1/okhttp-2.6.0.jar] from classloader hierarchy
+java.io.FileNotFoundException: C:\Users\Anil\.m2\repository\org\sonarsource\sonar-runner\sonar-runner-api\2.5.1\okhttp-2.6.0.jar (The system cannot find the file specified)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:241)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:383)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:318)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:270)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:233)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5166)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:576)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.ashokit.phonebook.Application.main(Application.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2021-03-03 22:25:41,193 [restartedMain] WARN  o.a.tomcat.util.scan.StandardJarScanner            - Failed to scan [file:/C:/Users/Anil/.m2/repository/org/sonarsource/sonar-runner/sonar-runner-api/2.5.1/okio-1.6.0.jar] from classloader hierarchy
+java.io.FileNotFoundException: C:\Users\Anil\.m2\repository\org\sonarsource\sonar-runner\sonar-runner-api\2.5.1\okio-1.6.0.jar (The system cannot find the file specified)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:241)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:383)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:318)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:270)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:233)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5166)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:576)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.ashokit.phonebook.Application.main(Application.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2021-03-03 22:25:41,195 [restartedMain] WARN  o.a.tomcat.util.scan.StandardJarScanner            - Failed to scan [file:/C:/Users/Anil/.m2/repository/org/sonarsource/sonar-runner/sonar-runner-api/2.5.1/sonar-runner-batch-interface-2.5.1.jar] from classloader hierarchy
+java.io.FileNotFoundException: C:\Users\Anil\.m2\repository\org\sonarsource\sonar-runner\sonar-runner-api\2.5.1\sonar-runner-batch-interface-2.5.1.jar (The system cannot find the file specified)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:241)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:383)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:318)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:270)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:233)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5166)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:576)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.ashokit.phonebook.Application.main(Application.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2021-03-03 22:25:41,200 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-03 22:25:41,205 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-03 22:25:41,205 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 4437 ms
+2021-03-03 22:25:41,308 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 22:25:42,890 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 22:25:42,898 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sbms_db'
+2021-03-03 22:25:43,229 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 22:25:43,313 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 22:25:43,524 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 22:25:43,727 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-03 22:25:45,094 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 22:25:45,109 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 22:25:45,158 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-03 22:25:45,826 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 22:25:46,106 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-03 22:25:46,235 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 22:25:46,520 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-03 22:25:46,597 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-03 22:25:46,597 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-03 22:25:46,648 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-03 22:25:46,725 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-03 22:25:46,965 [restartedMain] INFO  com.ashokit.phonebook.Application                  - Started Application in 11.877 seconds (JVM running for 15.458)
+2021-03-03 22:26:55,370 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-03 22:26:56,368 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 22:26:56,373 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 22:26:56,389 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 22:26:56,418 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-03 22:28:17,718 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ashokit.phonebook.ApplicationTests], using SpringBootContextLoader
+2021-03-03 22:28:17,933 [main] INFO  o.s.t.c.support.AbstractContextLoader              - Could not detect default resource locations for test class [com.ashokit.phonebook.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-03-03 22:28:17,968 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils       - Could not detect default configuration classes for test class [com.ashokit.phonebook.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-03-03 22:28:18,763 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Found @SpringBootConfiguration com.ashokit.phonebook.Application for test class com.ashokit.phonebook.ApplicationTests
+2021-03-03 22:28:19,295 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-03-03 22:28:19,494 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@53d9af1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@c89e263, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4d5ea776, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5d68be4f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@34eb5d01, org.springframework.test.context.support.DirtiesContextTestExecutionListener@77b22b05, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4fef5792, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57ed02e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@39004e4f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5f0ca069, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a6a2fdd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@552ffa44, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6e66b498, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@54d35ed5, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6f7c9755]
+2021-03-03 22:28:21,270 [main] INFO  com.ashokit.phonebook.ApplicationTests             - Starting ApplicationTests using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 14276 (started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 22:28:21,290 [main] INFO  com.ashokit.phonebook.ApplicationTests             - No active profile set, falling back to default profiles: default
+2021-03-03 22:28:26,327 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 22:28:26,698 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 336 ms. Found 1 JPA repository interfaces.
+2021-03-03 22:28:29,163 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 22:28:29,513 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 22:28:30,152 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 22:28:31,677 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 22:28:33,975 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 22:28:34,047 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-03 22:28:37,166 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 22:28:37,202 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 22:28:39,494 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 22:28:41,406 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-03 22:28:42,580 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 22:28:43,763 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-03 22:28:43,851 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-03 22:28:43,965 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-03 22:28:44,722 [main] INFO  com.ashokit.phonebook.ApplicationTests             - Started ApplicationTests in 24.817 seconds (JVM running for 31.689)
+2021-03-03 22:28:45,517 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper        - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ashokit.phonebook.ContactDetailsControllerTest], using SpringBootContextLoader
+2021-03-03 22:28:45,520 [main] INFO  o.s.t.c.support.AbstractContextLoader              - Could not detect default resource locations for test class [com.ashokit.phonebook.ContactDetailsControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-03-03 22:28:45,520 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils       - Could not detect default configuration classes for test class [com.ashokit.phonebook.ContactDetailsControllerTest]: ContactDetailsControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-03-03 22:28:45,707 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Found @SpringBootConfiguration com.ashokit.phonebook.Application for test class com.ashokit.phonebook.ContactDetailsControllerTest
+2021-03-03 22:28:45,714 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper        - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-03-03 22:28:45,715 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper        - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3176cf2c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2783c8c9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6a9c8f4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@27875816, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@208fec65, org.springframework.test.context.support.DirtiesContextTestExecutionListener@19f3bd3d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@51d5389f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4c0f8d5b, org.springframework.test.context.event.EventPublishingTestExecutionListener@133cac7b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@17a2f174, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6fcb22df, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5f9e1f28, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@29b73fd4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@299e42c7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1f7540f1]
+2021-03-03 22:28:46,058 [main] INFO  c.a.p.ContactDetailsControllerTest                 - Starting ContactDetailsControllerTest using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 14276 (started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 22:28:46,069 [main] INFO  c.a.p.ContactDetailsControllerTest                 - No active profile set, falling back to default profiles: default
+2021-03-03 22:28:51,493 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 22:28:51,954 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext           - Initializing Spring TestDispatcherServlet ''
+2021-03-03 22:28:51,954 [main] INFO  o.s.t.web.servlet.TestDispatcherServlet            - Initializing Servlet ''
+2021-03-03 22:28:51,960 [main] INFO  o.s.t.web.servlet.TestDispatcherServlet            - Completed initialization in 5 ms
+2021-03-03 22:28:52,014 [main] INFO  c.a.p.ContactDetailsControllerTest                 - Started ContactDetailsControllerTest in 6.289 seconds (JVM running for 38.981)
+2021-03-03 22:28:52,579 [main] INFO  c.a.p.c.ContactDetailsController                   - **** saveContact() - Contact Not Saved**** 
+2021-03-03 22:28:52,785 [main] INFO  c.a.p.c.ContactDetailsController                   - ** getAllContacts( ) -Records Not Available **
+2021-03-03 22:28:52,865 [main] ERROR c.a.p.c.ContactDetailsController                   - Exception Occured : ** java.lang.RuntimeException
+2021-03-03 22:28:52,964 [main] INFO  c.a.p.c.ContactDetailsController                   - **** saveContact() -Contact Saved **** 
+2021-03-03 22:28:53,086 [SpringContextShutdownHook] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 22:28:53,101 [SpringContextShutdownHook] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 22:28:53,112 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 22:28:53,197 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 22:28:53,323 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-03 23:12:19,311 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ashokit.phonebook.ApplicationTests], using SpringBootContextLoader
+2021-03-03 23:12:19,384 [main] INFO  o.s.t.c.support.AbstractContextLoader              - Could not detect default resource locations for test class [com.ashokit.phonebook.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-03-03 23:12:19,402 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils       - Could not detect default configuration classes for test class [com.ashokit.phonebook.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-03-03 23:12:20,777 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Found @SpringBootConfiguration com.ashokit.phonebook.Application for test class com.ashokit.phonebook.ApplicationTests
+2021-03-03 23:12:21,765 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-03-03 23:12:21,936 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7eebb316, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@45273d40, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2a504ea7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@10f397d0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@33a3e5db, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f9213d2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@679f59f1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6b5e1fc5, org.springframework.test.context.event.EventPublishingTestExecutionListener@47ffa248, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@18ac25e6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5e1a7d3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1eda309d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@248d2cec, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5d77be8e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@55a055cc]
+2021-03-03 23:12:25,122 [main] INFO  com.ashokit.phonebook.ApplicationTests             - Starting ApplicationTests using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 45460 (started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 23:12:25,208 [main] INFO  com.ashokit.phonebook.ApplicationTests             - No active profile set, falling back to default profiles: default
+2021-03-03 23:12:31,223 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 23:12:31,635 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 377 ms. Found 1 JPA repository interfaces.
+2021-03-03 23:12:35,005 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 23:12:35,297 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 23:12:36,224 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 23:12:37,512 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-03 23:12:40,229 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-03 23:12:40,296 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-03 23:12:43,996 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 23:12:44,049 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 23:12:47,308 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 23:12:49,052 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-03 23:12:51,170 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 23:12:52,978 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-03 23:12:53,075 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-03 23:12:53,263 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-03 23:12:54,046 [main] INFO  com.ashokit.phonebook.ApplicationTests             - Started ApplicationTests in 31.487 seconds (JVM running for 46.456)
+2021-03-03 23:12:54,696 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper        - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ashokit.phonebook.ContactDetailsControllerTest], using SpringBootContextLoader
+2021-03-03 23:12:54,701 [main] INFO  o.s.t.c.support.AbstractContextLoader              - Could not detect default resource locations for test class [com.ashokit.phonebook.ContactDetailsControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-03-03 23:12:54,705 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils       - Could not detect default configuration classes for test class [com.ashokit.phonebook.ContactDetailsControllerTest]: ContactDetailsControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-03-03 23:12:54,904 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Found @SpringBootConfiguration com.ashokit.phonebook.Application for test class com.ashokit.phonebook.ContactDetailsControllerTest
+2021-03-03 23:12:54,908 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper        - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-03-03 23:12:54,921 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper        - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2b91e343, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ef5b93e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4ad7ce47, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@78707f9a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5c5f102c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5fe06ed0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2b31269d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@50c610ce, org.springframework.test.context.event.EventPublishingTestExecutionListener@74bca48a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@28f6d223, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@ad10c6e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a713d9a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7b785caa, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6501ee2c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@67b13c9e]
+2021-03-03 23:12:55,193 [main] INFO  c.a.p.ContactDetailsControllerTest                 - Starting ContactDetailsControllerTest using Java 1.8.0_241 on DESKTOP-P9P85UI with PID 45460 (started by Anil in D:\Study_Workspace\AshokIT_Notes\13-GTPR Batch\13_GRTP_WorkSpace\07-PhoneBookApplication)
+2021-03-03 23:12:55,200 [main] INFO  c.a.p.ContactDetailsControllerTest                 - No active profile set, falling back to default profiles: default
+2021-03-03 23:12:57,393 [main] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-03 23:12:58,046 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext           - Initializing Spring TestDispatcherServlet ''
+2021-03-03 23:12:58,047 [main] INFO  o.s.t.web.servlet.TestDispatcherServlet            - Initializing Servlet ''
+2021-03-03 23:12:58,052 [main] INFO  o.s.t.web.servlet.TestDispatcherServlet            - Completed initialization in 5 ms
+2021-03-03 23:12:58,294 [main] INFO  c.a.p.ContactDetailsControllerTest                 - Started ContactDetailsControllerTest in 3.342 seconds (JVM running for 50.705)
+2021-03-03 23:12:58,839 [main] INFO  c.a.p.c.ContactDetailsController                   - **** saveContact() - Contact Not Saved**** 
+2021-03-03 23:12:58,997 [main] INFO  c.a.p.c.ContactDetailsController                   - ** getAllContacts( ) -Records Not Available **
+2021-03-03 23:12:59,328 [main] ERROR c.a.p.c.ContactDetailsController                   - Exception Occured : ** java.lang.RuntimeException
+2021-03-03 23:12:59,480 [main] INFO  c.a.p.c.ContactDetailsController                   - **** saveContact() -Contact Saved **** 
+2021-03-03 23:12:59,581 [SpringContextShutdownHook] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 23:12:59,622 [SpringContextShutdownHook] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-03 23:12:59,633 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 23:12:59,645 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-03 23:12:59,728 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,20 @@
+server:
+  port: 9095
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/jrtp_db
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+phnbook:
+  messages:
+    saveContactSuccess: Contact saved successfully
+    saveContactFailed: Failed to save contact
+    deleteContactSuccess: Contact deleted successfully
+    deleteContactFailed: Failed to delete contact
